@@ -15,7 +15,7 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL)
 
 # YouTube API setup
-DEVELOPER_KEY = "AIzaSyAAKsi1WiPdTdxZWGgh2R7eeMp_2lrHtFs"  # Replace with your actual API key
+DEVELOPER_KEY = ""  # Replace with your actual API key
 youtube = build("youtube", "v3", developerKey=DEVELOPER_KEY)
 
 # Function to get sentiment using the Twitter-specific model
